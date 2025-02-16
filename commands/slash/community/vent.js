@@ -20,7 +20,7 @@ new Command({
       const content = ctx.arguments.getString('content');
 
       const ventEmbed = new EmbedBuilder()
-      .setColor('orange')
+      .setColor(0xE67E22)
       .setTitle(`🔸VENT🔸`)
       .setAuthor({ name: 'Anonymous', iconURL: ctx.guild.iconURL() })
       .setDescription(`🔸${content}`)

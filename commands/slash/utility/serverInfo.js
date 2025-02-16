@@ -19,7 +19,7 @@ new Command({
   
   
       const embed = new EmbedBuilder()
-      .setColor(0x8269c2)
+      .setColor(0xE67E22)
       .setThumbnail(icon)
       .setAuthor({name: name})
       .setFooter({ text: `ID: ${id}`})

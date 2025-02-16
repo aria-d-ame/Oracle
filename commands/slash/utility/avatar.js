@@ -14,7 +14,7 @@ new Command({
       const icon = user.displayAvatarURL({ dynamic: true, size: 2048 });
 
       const avatarembed = new EmbedBuilder()
-      .setColor(0x8269c2)
+      .setColor(0xE67E22)
       .setTitle(`🔸USER AVATAR🔸`)
       .setAuthor({ name: user.displayName })
       .setImage(icon)

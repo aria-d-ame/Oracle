@@ -91,7 +91,7 @@ new Listener({
 
                     // Send level up message with milestone notification
                     const embedrole = new EmbedBuilder()
-                        .setColor(`orange`)
+                        .setColor(0xE67E22)
                         .setDescription(`🔸${author} has hit a level milestone (<@${roleId}>)!`);
 
                     await levelUpChannel.send({ embeds: [embedrole] });
@@ -99,7 +99,7 @@ new Listener({
 
                 // Send level up message without milestone notification
                 const embed = new EmbedBuilder()
-                    .setColor(`orange`)
+                    .setColor(0xE67E22)
                     .setDescription(`🔸${author} has reached level ${data.Level}!`);
 
                 await levelUpChannel.send({ embeds: [embed] });

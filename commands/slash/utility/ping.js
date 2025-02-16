@@ -16,7 +16,7 @@ new Command({
       const ping = reply.createdTimestamp - ctx.createdTimestamp;
 
       // Edit the reply to include the ping
-      await ctx.interaction.editReply(`🔸<:xtriangle_small:1276263767872770108> Bot latency: ${ping}ms | 🔸 API Latency: ${ctx.client.ws.ping}ms`);
+      await ctx.interaction.editReply(`🔸 Bot latency: ${ping}ms | 🔸 API Latency: ${ctx.client.ws.ping}ms`);
     } catch (error) {
       console.error('Error executing ping command:', error);
 

@@ -22,7 +22,7 @@ new Command({
         // Create an embed to send the leaderboard
         const xpEmbed = new EmbedBuilder()
           .setTitle(`🔸LEADERBOARD🔸`)
-          .setColor(`orange`)
+          .setColor(0xE67E22)
           .setFooter({
             text: `${ctx.guild.name} • Members: ${ctx.guild.memberCount}`, // Footer text
             iconURL: ctx.guild.iconURL()

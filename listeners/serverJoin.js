@@ -14,7 +14,7 @@ new Listener({
 
 			const joinEmbed = new EmbedBuilder()
 				.setTitle(`🔸${ctx.user.username} has opened the ${ctx.guild.name}!`)
-				.setColor(`orange`)
+				.setColor(0xE67E22)
 				.setThumbnail(ctx.displayAvatarURL())
 				.setTimestamp()
 				.setFooter({

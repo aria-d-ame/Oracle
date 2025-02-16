@@ -44,7 +44,7 @@ new Command({
           Number: 1
         });
         const embed = new EmbedBuilder()
-        .setColor(0x8269c2)
+        .setColor(0xE67E22)
         .setDescription(`Counting has been set up! Start counting in ${channel}!`)
 
         await ctx.reply({ embeds: [embed] });
@@ -61,7 +61,7 @@ new Command({
         });
 
         const embed = new EmbedBuilder()
-        .setColor(0x8269c2)
+        .setColor(0xE67E22)
         .setDescription(`Counting disabled!`)
 
         await ctx.reply({ embeds: [embed] });

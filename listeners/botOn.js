@@ -19,7 +19,7 @@ const setupBumpReminders = async (ctx) => {
                 
                 if (channel) {
                     const remindEmbed = new EmbedBuilder()
-                        .setColor(`orange`)
+                        .setColor(0xE67E22)
                         .setTimestamp()
                         .setFooter({
                             text: channel.guild.name,
@@ -46,7 +46,7 @@ new Listener({
         type: ActivityType.Watching,
         url: "https://discord.gg/MW3r57vamW"
     });
-    const modChannelId = '1278877530635374675';
+    const modChannelId = '1329993553212084386';
     const modChannel = ctx.channels.cache.get(modChannelId);
     if (modChannel) {
         await modChannel.send({ content: `${ctx.user.tag} is now online!` });

@@ -16,7 +16,7 @@ new Listener({
 
       const leaveEmbed = new EmbedBuilder()
         .setTitle(`🔸${ctx.user.username} has closed the ${ctx.guild.name}.`)
-        .setColor(`orange`)
+        .setColor(0xE67E22)
 				.setAuthor({
 					name: ' ',
 					iconURL: ctx.user.displayAvatarURL() || ' '

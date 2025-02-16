@@ -28,7 +28,7 @@ new Command({
       const Required = xpData.Level * xpData.Level * 30
   
       const rankEmbed = new EmbedBuilder()
-      .setColor(`orange`)
+      .setColor(0xE67E22)
       .setTitle(`🔸RANK🔸`)
       .setAuthor({ name: user.displayName })
       .setThumbnail(icon)

@@ -25,7 +25,7 @@ new Listener({
 
         if (responseChannel) {
             const remind = new EmbedBuilder()
-                .setColor(`orange`)
+                .setColor(0xE67E22)
                 .setTimestamp()
                 .setFooter({
                     text: `${ctx.guild.name}`, // Footer text
@@ -42,7 +42,7 @@ new Listener({
                 const channel = ctx.guild.channels.cache.get(channelId);
                 if (channel) {
                     const remind2 = new EmbedBuilder()
-                        .setColor(`orange`)
+                        .setColor(0xE67E22)
                         .setTimestamp()
                         .setFooter({
                             text: `${ctx.guild.name}`, // Footer text

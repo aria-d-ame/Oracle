@@ -31,7 +31,7 @@ new Listener({
             await data.save();
             await ctx.react('❌');
             const embed = new EmbedBuilder()
-                .setColor(`orange`)
+                .setColor(0xE67E22)
                 .setDescription(`🔸That wasn't the right number! Now we start from one!`)
 
             await ctx.reply({ embeds: [embed] });
@@ -42,7 +42,7 @@ new Listener({
             await data.save();
             await ctx.react('❌');
             const embed = new EmbedBuilder()
-                .setColor(`orange`)
+                .setColor(0xE67E22)
                 .setDescription(`🔸You can't count twice in a row! Start from one!`)
 
             await ctx.reply({ embeds: [embed] });

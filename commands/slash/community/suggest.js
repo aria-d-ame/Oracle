@@ -21,7 +21,7 @@ new Command({
       const suggestion = ctx.arguments.getString('suggestion');
 
       const suggestEmbed = new EmbedBuilder()
-      .setColor(`orange`)
+      .setColor(0xE67E22)
       .setTitle(`🔸SUGGESTION🔸`)
       .setAuthor({ name: user.displayName, iconURL: icon })
       .setDescription(`🔸${suggestion}`)
